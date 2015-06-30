@@ -24,7 +24,7 @@
 QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;padding:0 3px;}</string>
      </property>
      <property name="title">
-      <string>Settings</string>
+      <string>Einstellungen</string>
      </property>
      <property name="flat">
       <bool>false</bool>
@@ -35,7 +35,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         <item>
          <widget class="QLabel" name="label_tot_beat">
           <property name="text">
-           <string>Total number of beats</string>
+           <string>Anzahl beeps insgesamt</string>
           </property>
          </widget>
         </item>
@@ -62,7 +62,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         <item>
          <widget class="QLabel" name="label_bpm">
           <property name="text">
-           <string>Beats per minute</string>
+           <string>Beeps pro Minute</string>
           </property>
          </widget>
         </item>
@@ -89,7 +89,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         <item>
          <widget class="QLabel" name="label_tol">
           <property name="text">
-           <string>Tolerance interval in ms</string>
+           <string>Toleranzintervall</string>
           </property>
          </widget>
         </item>
@@ -119,7 +119,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
      <item>
       <widget class="QPushButton" name="pushAbort">
        <property name="text">
-        <string>Abort</string>
+        <string>Abbruch</string>
        </property>
       </widget>
      </item>
@@ -342,7 +342,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         </size>
        </property>
        <property name="text">
-        <string>Too fast</string>
+        <string>zu schnell</string>
        </property>
       </widget>
      </item>
@@ -361,7 +361,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         </size>
        </property>
        <property name="text">
-        <string>Too slow</string>
+        <string>zu langsam</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
