@@ -89,7 +89,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
         <item>
          <widget class="QLabel" name="label_tol">
           <property name="text">
-           <string>Toleranzintervall</string>
+           <string>Toleranzintervall in ms</string>
           </property>
          </widget>
         </item>
@@ -171,7 +171,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
            <number>1</number>
           </property>
           <property name="digitCount">
-           <number>3</number>
+           <number>4</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
@@ -205,7 +205,7 @@ QGroupBox::title{subcontrol-origin: margin;subcontrol-position:top center;paddin
            <number>1</number>
           </property>
           <property name="digitCount">
-           <number>3</number>
+           <number>4</number>
           </property>
           <property name="segmentStyle">
            <enum>QLCDNumber::Flat</enum>
